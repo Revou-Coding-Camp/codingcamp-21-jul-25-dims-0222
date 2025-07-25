@@ -1,0 +1,37 @@
+main {
+    width: 50%;
+    height: 100vh;
+    justify-self: center;
+    align-content: center;
+}
+
+body {
+    background-color: #ffffff; 
+}
+
+form {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(142, 204, 255);
+    padding: 16px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.action-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    border-bottom: 1px solid;
+}
+
+#todo-list {
+    height: 200px;
+    overflow-y: auto;
+    padding: 10px;
+    border: 1px solid rgb(142, 204, 255);
+    border-radius: 8px;
+}
